@@ -1,0 +1,63 @@
+.content {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+/* Contenedor para el título y el botón */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title-product {
+    color: black;
+}
+
+.input-filtro {
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.button{
+    background-color: rgb(61, 109, 212);
+    padding: 8px 15px;
+}
+
+.table-head {
+    background-color: #afb5bb; /* Color para la fila del encabezado */
+    color: black;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd; /* Línea debajo de cada fila del cuerpo */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    color: black;
+    padding: 10px;
+}
+
+.titulo-grafica{
+    color: black;
+    text-align: center;
+}
